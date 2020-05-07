@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Pagination } from 'antd'
+import { Button, Pagination, Rate } from 'antd'
 
 class OnePage extends Component {
   render() {
@@ -10,6 +10,7 @@ class OnePage extends Component {
         <Button type="dashed">Dashed</Button>
         <Button type="danger">Danger</Button>
         <Button type="link">Link</Button>
+        <Rate></Rate>
         <Pagination defaultCurrent={1} total={50}></Pagination>
       </div>
     )
