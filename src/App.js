@@ -2,6 +2,7 @@ import React from 'react'
 import OnePage from './view/onePage'
 import FectDemo from './view/fectDemo'
 import ProxyFectDemo from './view/proxyFectDemo'
+import FectEncapsulation from './view/fectEncapsulation'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <OnePage />
       <FectDemo />
       <ProxyFectDemo />
+      <FectEncapsulation />
     </div>
   );
 }
