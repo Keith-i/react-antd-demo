@@ -5,12 +5,8 @@ const api = {
   getBenners() {
     return httpGet(base.banners)
   },
-  getLogin() {
-    return httpPost(base.login, {
-      user_id: "iwen@qq.com",
-      password: "iwen123",
-      verification_code: "crfvw"
-    })
+  getLogin(params) {
+    return httpPost(base.login, params)
   }
 }
 

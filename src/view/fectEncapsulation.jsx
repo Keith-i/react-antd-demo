@@ -15,7 +15,11 @@ class fectEncapsulation extends Component {
     let data = await api.getBenners()
     console.log(data, 'data')
 
-    let loginData = await api.getLogin()
+    let loginData = await api.getLogin({
+      user_id: "iwen@qq.com",
+      password: "iwen123",
+      verification_code: "crfvw"
+    })
     console.log(loginData, 'loginData')
 
     this.setState({
